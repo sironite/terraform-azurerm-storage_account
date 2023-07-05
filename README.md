@@ -80,8 +80,8 @@ No modules.
 | secondary\_file\_endpoint | The secondary file endpoint of the storage account. |
 | secondary\_queue\_endpoint | The secondary queue endpoint of the storage account. |
 | secondary\_table\_endpoint | The secondary table endpoint of the storage account. |
+| storage\_account\_id | The ID of the storage account. |
 | storage\_account\_name | The name of the storage account. |
-| stroage\_account\_id | The ID of the storage account. |
 
 ## Related documentation
 <!-- END_TF_DOCS -->
