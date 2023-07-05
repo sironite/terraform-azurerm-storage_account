@@ -58,7 +58,7 @@ No modules.
 | infrastructure\_encryption\_enabled | Whether infrastructure encryption is enabled. | `bool` | no |
 | is\_hns\_enabled | Whether Hierarchical Namespace is enabled. | `bool` | no |
 | min\_tls\_version | The minimum TLS version. | `string` | no |
-| network\_rules | The network rules. | <pre>list(object({<br>    default_action             = string<br>    bypass                     = string<br>    ip_rules                   = list(string)<br>    virtual_network_subnet_ids = list(string)<br>  }))</pre> | no |
+| network\_rules | The network rules. | <pre>list(object({<br>    default_action             = string<br>    bypass                     = list(string)<br>    ip_rules                   = list(string)<br>    virtual_network_subnet_ids = list(string)<br>  }))</pre> | no |
 | public\_network\_access\_enabled | Whether public network access is enabled. | `bool` | no |
 | shared\_access\_key\_enabled | Whether shared access key is enabled. | `bool` | no |
 | tags | The tags to apply to the storage account. | `map(string)` | no |
