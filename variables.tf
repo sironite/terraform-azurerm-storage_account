@@ -88,14 +88,14 @@ variable "allowed_copy_scope" {
 variable "network_rules" {
   type = list(object({
     default_action             = string
-    bypass                     = string
+    bypass                     = list(string)
     ip_rules                   = list(string)
     virtual_network_subnet_ids = list(string)
   }))
   description = "The network rules."
   default = [{
     default_action             = "Allow"
-    bypass                     = "AzureServices"
+    bypass                     = ["AzureServices"]
     ip_rules                   = []
     virtual_network_subnet_ids = []
   }]
