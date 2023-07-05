@@ -49,7 +49,7 @@ variable "enable_https_traffic_only" {
   default     = true
 }
 
-variable "minimum_tls_version" {
+variable "min_tls_version" {
   type        = string
   description = "The minimum TLS version."
   default     = "TLS1_2"
@@ -82,7 +82,7 @@ variable "infrastructure_encryption_enabled" {
 variable "allowed_copy_scope" {
   type        = string
   description = "The allowed copy scope."
-  default     = "AzureSubscription"
+  default     = "PrivateLink"
 }
 
 variable "network_rules" {
