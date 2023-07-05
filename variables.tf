@@ -82,7 +82,7 @@ variable "infrastructure_encryption_enabled" {
 variable "allowed_copy_scope" {
   type        = string
   description = "The allowed copy scope."
-  default     = "AzureSubscription"
+  default     = "PrivateLink"
 }
 
 variable "network_rules" {
