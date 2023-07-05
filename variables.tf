@@ -58,7 +58,7 @@ variable "min_tls_version" {
 variable "shared_access_key_enabled" {
   type        = bool
   description = "Whether shared access key is enabled."
-  default     = false
+  default     = true
 }
 
 variable "public_network_access_enabled" {
@@ -76,13 +76,19 @@ variable "is_hns_enabled" {
 variable "infrastructure_encryption_enabled" {
   type        = bool
   description = "Whether infrastructure encryption is enabled."
-  default     = true
+  default     = false
 }
 
 variable "allowed_copy_scope" {
   type        = string
   description = "The allowed copy scope."
   default     = "PrivateLink"
+}
+
+variable "allow_nested_items_to_be_public" {
+  type        = bool
+  description = "Whether nested items can be public."
+  default     = false  
 }
 
 variable "network_rules" {

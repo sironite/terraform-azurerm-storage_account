@@ -52,6 +52,7 @@ No modules.
 | account\_kind | The storage account kind. | `string` | no |
 | account\_replication\_type | The storage account replication type. | `string` | no |
 | account\_tier | The storage account tier. | `string` | no |
+| allow\_nested\_items\_to\_be\_public | Whether nested items can be public. | `bool` | no |
 | allowed\_copy\_scope | The allowed copy scope. | `string` | no |
 | cross\_tenant\_replication\_enabled | Whether cross-tenant replication is enabled. | `bool` | no |
 | enable\_https\_traffic\_only | Whether HTTPS traffic only is enabled. | `bool` | no |
