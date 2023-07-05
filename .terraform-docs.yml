@@ -8,9 +8,10 @@ content: |-
 
   # Usage - Module
 
-  ## Network Watcher Flow Log
+  ## Azure Storage Account
+  
   ```hcl
-  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
+  {{ include "examples/storage-account-example/main.tf" }}
   ```
 
   {{ .Providers }}
