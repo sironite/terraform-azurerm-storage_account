@@ -49,7 +49,7 @@ variable "enable_https_traffic_only" {
   default     = true
 }
 
-variable "minimum_tls_version" {
+variable "min_tls_version" {
   type        = string
   description = "The minimum TLS version."
   default     = "TLS1_2"
