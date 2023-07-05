@@ -9,7 +9,7 @@ resource "azurerm_storage_account" "this" {
   cross_tenant_replication_enabled  = var.cross_tenant_replication_enabled
   access_tier                       = var.access_tier
   enable_https_traffic_only         = var.enable_https_traffic_only
-  minimum_tls_version               = var.minimum_tls_version
+  min_tls_version                   = var.minimum_tls_version
   shared_access_key_enabled         = var.shared_access_key_enabled
   public_network_access_enabled     = var.public_network_access_enabled
   is_hns_enabled                    = var.is_hns_enabled
